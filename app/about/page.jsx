@@ -76,8 +76,8 @@ export default function About(){
             title: 'education',
             data:[
                 {
-                    curso: 'Information Technology Management',
-                    qualification: 'Developer Full Stack',
+                    universy: 'Information Technology Management',
+                    qualification: 'Bachelor',
                     years: '2018 - 2022'
                 },
                 {
@@ -93,12 +93,12 @@ export default function About(){
             data:[
                 {
                     company: 'Lekko Group',
-                    qualification: 'Software Engineer',
+                    role: 'Software Engineer',
                     years: '2023 - 2024'
                 },
                 {
-                    universy: 'Excellence Tecnologia',
-                    qualification: 'IT technical support officer',
+                    company: 'Excellence Tecnologia',
+                    role: 'IT technical support officer',
                     years: '2021 - 2022'
                 },
                 
@@ -151,12 +151,101 @@ export default function About(){
                                     {/* Languagens */}
                                     <div className="text-primary">Language Skill</div>
                                     <div className="border-b border-border"></div>
-                                    <div>English, Português and Spanish</div>
+                                    <div>English, Portuguese and Spanish</div>
                                     </div>
                                     </div>
                                 </TabsContent>
-                                <TabsContent value='qualifications'>Qualifications</TabsContent>
-                                <TabsContent value='skills'>Skills</TabsContent>
+                                <TabsContent value='qualifications'>
+                                    <div>
+                                        <h3 className="h3 mb-8 text-center xl:text-left">My Awesome Journed</h3>
+                                        <div className="grid md:grid-cols-2 gap-y-8">
+                                            <div className="flex flex-col gap-y-6">
+                                                <div className="flex gap-x-4 items-center text-[22px] text-primary">
+                                                    <Briefcase/>
+                                                    <h4 className="capitalize font-mediumx">{getData(qualificationData, 'experience').title}</h4>
+                                                </div>
+                                                {/* list */}
+                                                <div className="flex flex-col gap-y-8">
+                                                    {getData(qualificationData, 'experience').data.map((item, index)=>{
+                                                        const {company, role, years} = item;
+                                                        return(
+                                                            <div className="flex gap-x-8  group relative" key={index}>
+                                                                <div className="h-[84px] w-[1px] bg-border relative ml-2"></div>
+                                                                <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                                                <ul>
+                                                                <li  className="font-semibold text-xl leading-none mb-2 ">{company}</li>
+                                                                <li className="text-lg leading-none text-muted-foreground mb-4">{role}</li>
+                                                                <li className="text-base font-medium ">{years}</li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                        )
+                                                    })}
+                                                </div>
+                                                
+                                            </div>
+                                            {/* education */}
+                                            <div  className="flex flex-col gap-y-6">
+                                                <div className="flex gap-x-4 items-center text-[22px] text-primary">
+                                                    <GraduationCap size={28}/>
+                                                    <h4 className="capitalize font-mediumx">{getData(qualificationData, 'education').title}</h4>
+                                                </div>
+                                                {/* list */}
+                                                <div className="flex flex-col gap-y-8">
+                                                    {getData(qualificationData, 'education').data.map((item, index)=>{
+                                                        const {universy, qualification, years} = item;
+                                                        return(
+                                                            <div className="flex gap-x-8  group relative" key={index}>
+                                                                <div className="h-[84px] w-[1px] bg-border relative ml-2"></div>
+                                                                <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                                                <ul>
+                                                                <li  className="font-semibold text-xl leading-none mb-2 ">{universy}</li>
+                                                                <li className="text-lg leading-none text-muted-foreground mb-4">{qualification}</li>
+                                                                <li className="text-base font-medium ">{years}</li>
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                        )
+                                                    })}
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabsContent>
+                                <TabsContent value='skills'>
+                                <div className="text-center xl:text-left">
+                                        <h3  className="h3 mb-4">What I use Everyday </h3>
+                                        <div className="mb-16">
+                                            <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                                            <div  className="border-b border-border mb-8"></div>
+                                                <div>
+                                                        {getData(skillDatas, 'skills').data.map((item, index)=>{
+                                                        const {pathImg} = item;
+                                                        return (
+                                                            <ul className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
+                                                                <li className="font-medium">{pathImg}</li>
+                                                            </ul>
+                                                        )
+                                                        })}
+                                                </div>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                                            <div className="border-b border-border"></div>  
+                                            <div className="flex gap-x-8 justify-center xl:justify-start">
+                                                {getData(skillDatas, 'tools').data.map((item, index)=>{
+                                                    const {pathImg} = item;
+                                                    return(
+                                                        <ul className="mt-3" key={index}>
+                                                            <li><img src={pathImg} width={48} height={48} alt="" priority /></li>
+                                                        </ul>
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabsContent>
                             </div>
                         </Tabs>
                     </div>
