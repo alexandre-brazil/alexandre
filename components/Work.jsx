@@ -74,8 +74,7 @@ export default function Work(){
                                 <ProjectCard project={project}/>
                             </SwiperSlide>
                         })}
-                    </Swiper>
-                    
+                    </Swiper>                  
                 </div>
             </div>
         </section>
