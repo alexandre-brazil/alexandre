@@ -13,12 +13,12 @@ export default function Services(){
         {
             icon: <Blocks size={72} strokeWidth={0.8} />,
             title: 'Web Development',
-            description: 'I create visually appealing and responsive websites using Next.js, CSS Tailwind, and React. My approach aims to deliver modern and seamless user experiences tailored for various devices and browsers.'
+            description: 'I create responsive, visually appealing websites with Next.js, Tailwind CSS, and React, ensuring seamless user experiences across devices and browsers.'
         },
         {
             icon: <Gem size={72} strokeWidth={0.8} />,
             title: 'App Development',
-            description: 'I create React Native apps for Android/iOS with a focus on quality and user experience. My solutions are tailored to your needs and compatible with the latest OS versions.'
+            description: 'I create high-quality React Native apps for Android/iOS, tailored to your needs and compatible with the latest OS versions.'
         },
     ]
 
