@@ -8,17 +8,17 @@ export default function Services(){
         {
             icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
             title: 'Web Design',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
+            description: 'I design creative and functional web interfaces, focusing on usability and aesthetics. I use tools like Adobe XD and Figma to create intuitive and responsive designs, aiming to deliver a unique user experience.'
         },
         {
             icon: <Blocks size={72} strokeWidth={0.8} />,
             title: 'Web Development',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus '
+            description: 'I create visually appealing and responsive websites using Next.js, CSS Tailwind, and React. My approach aims to deliver modern and seamless user experiences tailored for various devices and browsers.'
         },
         {
             icon: <Gem size={72} strokeWidth={0.8} />,
             title: 'App Development',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae '
+            description: 'I create React Native apps for Android/iOS with a focus on quality and user experience. My solutions are tailored to your needs and compatible with the latest OS versions.'
         },
     ]
 

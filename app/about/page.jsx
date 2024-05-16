@@ -151,7 +151,7 @@ export default function About(){
                                     {/* Languagens */}
                                     <div className="text-primary">Language Skill</div>
                                     <div className="border-b border-border"></div>
-                                    <div>English, Portuguese and Spanish</div>
+                                    <div>English and Portuguese</div>
                                     </div>
                                     </div>
                                 </TabsContent>
