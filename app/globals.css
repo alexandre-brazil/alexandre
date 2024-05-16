@@ -84,3 +84,6 @@
   .h4 {
     @apply text-[22px] font-semibold;
   }
+  .card_project {
+    @apply rounded-tl-[30px] rounded-tr-[30px]
+  }

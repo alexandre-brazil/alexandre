@@ -8,17 +8,17 @@ export default function Services(){
         {
             icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
             title: 'Web Design',
-            description: 'Lorem ipsum'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
         },
         {
             icon: <Blocks size={72} strokeWidth={0.8} />,
             title: 'Web Development',
-            description: 'Lorem ipsum'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
         },
         {
             icon: <Gem size={72} strokeWidth={0.8} />,
             title: 'App Development',
-            description: 'Lorem ipsum'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
         },
     ]
 
