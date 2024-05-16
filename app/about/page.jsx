@@ -13,11 +13,11 @@ export default function About(){
         },
         {
             icon: <PhoneCall size={20} />, 
-            text: '+55 65 992792383'
+            text: '+351 913 162 846'
         },
         {
             icon: <HomeIcon  size={20} />, 
-            text: '78464034, LRV-MT/🇧🇷'
+            text: 'Libertador, N 94A Porto/PT'
         },
         {
             icon: <MailIcon size={20} />, 
@@ -132,9 +132,9 @@ export default function About(){
                             <div className="text-lg mt-12 xl:mt-8">
                                 <TabsContent value='personal'>
                                     <div className="text-center xl:text-left">
-                                        <h3 className="h3 mb-4">Especializado em webdsgner</h3> 
+                                        <h3 className="h3 mb-4">Web Design Specialist</h3> 
                                     <p className="subtitle max-w-xl max-auto xl:mx-0">
-                                    Um designer especializado é altamente habilidoso em conceber e implementar soluções visuais inovadoras, combinando criatividade com competência técnica. Seu trabalho visa criar experiências visuais memoráveis e funcionais, utilizando sua expertise para transmitir mensagens efetivamente através do design.
+                                    Enthusiast in Web Development, I have studied and worked intensively in the field, focusing on the JavaScript ecosystem. My journey began in 2017 during my Information Technology Management course, where I learned programming logic and was exposed to C and Java. After completing the course, I specialized in Mobile Development. I have explored technologies such as JavaScript, CSS, HTML, TypeScript, React, Next, Node, and Nest. Currently, I dedicate myself daily to creating new projects and seek challenges that allow me to grow professionally and contribute to exceptional web experiences.
                                     </p>
                                     {/* Icons */}
                                     <div className="grid xl:grid-cols-2 gap-4 mb-12">

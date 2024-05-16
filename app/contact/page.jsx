@@ -14,7 +14,9 @@ export default function Contact(){
                         Say Hello
                     </div>
                     <h1 className="h1 max-w-md mb-8">Let's Work together </h1>
-                    <p className="subtitle max-w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus id officiis sequi distinctio! Numquam nesciunt amet soluta eligendi, quas necessitatibus veritatis laboriosam, nisi odit sapiente illum incidunt voluptatem explicabo magnam.</p>
+                    <p className="subtitle max-w-[400px]">
+                    Having a digital presence is crucial for a company as it serves as the first point of contact for potential customers. It provides concise and compelling information about products/services, captures leads, and helps direct traffic towards conversions. It's an effective tool for increasing brand visibility and generating initial interest from visitors.
+                    </p>
                     </div>
                     <Form>
                     </Form>

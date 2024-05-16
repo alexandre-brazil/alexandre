@@ -6,23 +6,23 @@ import Link from 'next/link';
 export default function Socials({containerStyles, iconsStyles}){
     const icons = [
         {
-            path:'/',
+            path:'https://www.youtube.com/channel/UCM6JiU-SwOc4GEpVxHFctWw',
             name: <RiYoutubeFill/>
         },
         {
-            path:'/',
+            path:'https://www.linkedin.com/in/alexandre-brasil-dos-santos/',
             name: <RiLinkedinFill/>
         },
         {
-            path:'/',
+            path:'https://github.com/alexandre-cooper',
             name: <RiGithubFill/>
         },
         {
-            path:'/',
+            path:'https://www.facebook.com/alexandresalvatore27?mibextid=LQQJ4d',
             name: <RiFacebookFill/>
         },
         {
-            path:'/',
+            path:'https://www.instagram.com/_alexandre.brasil?igsh=NHRvNWppY2NhOTh2',
             name: <RiInstagramFill/>
         },
     ]
@@ -30,7 +30,7 @@ export default function Socials({containerStyles, iconsStyles}){
         <div className={`${containerStyles}`}>
             {icons.map((icon, index)=>{
                 return(
-                    <Link href={icon.path} key={index}>
+                    <Link rel="noopener noreferrer" target="_blank" href={icon.path} key={index}>
                         <div className={`${iconsStyles}`}>
                             {icon.name}
                         </div>
