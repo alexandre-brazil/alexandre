@@ -25,11 +25,11 @@ export default function Contact(){
                     <div>
                         <div className="flex items-center gap-x-3">
                             <MailIcon size={18} className="text-primary"/>
-                            <h4>alexandre.brazil.official@gmail.com</h4>
+                            <h4>alexandre@lekko.com.br</h4>
                         </div>
                         <div className="flex items-center gap-x-3">
                             <HomeIcon size={18} className="text-primary"/>
-                            <h4>PC Exercito Libertador, N 94A, Porto/Portugal</h4>
+                            <h4>Exercito Libertador, N 94A, Porto/Portugal</h4>
                         </div>
                         <div className="flex items-center gap-x-3">
                             <PhoneCall size={18} className="text-primary"/>
