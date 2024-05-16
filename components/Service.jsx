@@ -8,7 +8,7 @@ export default function Services(){
         {
             icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
             title: 'Web Design',
-            description: 'I design creative and functional web interfaces, focusing on usability and aesthetics. I use tools like Adobe XD and Figma to create intuitive and responsive designs, aiming to deliver a unique user experience.'
+            description: 'I design creative, functional web interfaces with Adobe XD and Figma, focusing on usability, aesthetics, and a unique user experience.'
         },
         {
             icon: <Blocks size={72} strokeWidth={0.8} />,
