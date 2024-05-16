@@ -13,12 +13,12 @@ export default function Services(){
         {
             icon: <Blocks size={72} strokeWidth={0.8} />,
             title: 'Web Development',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus '
         },
         {
             icon: <Gem size={72} strokeWidth={0.8} />,
             title: 'App Development',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae eum debitis, fugiat nihil corporis ipsa sapiente voluptatum. Dicta distinctio ullam culpa vitae reiciendis dolorem voluptas.'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit totam delectus possimus vitae '
         },
     ]
 

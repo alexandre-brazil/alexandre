@@ -6,7 +6,7 @@ export default function Contact(){
         <section>
             <div className="container mx-auto">
                 
-                <div className="flex grid grid-cols-2">
+                <div className="flex flex-col xl:grid grid-cols-2">
                     
                     <div className="flex flex-col justify-center py-2">
                     <div className="flex items-center gap-x-4 text-primary text-lg mb-4">
@@ -17,7 +17,6 @@ export default function Contact(){
                     <p className="subtitle max-w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus id officiis sequi distinctio! Numquam nesciunt amet soluta eligendi, quas necessitatibus veritatis laboriosam, nisi odit sapiente illum incidunt voluptatem explicabo magnam.</p>
                     </div>
                     <Form>
-
                     </Form>
                 </div>
                 <div>

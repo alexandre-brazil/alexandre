@@ -21,7 +21,7 @@ export default function Form(){
             <Textarea type='message' id='message' placeholder='Type Your Message Here...'/>
             <MessageSquare size={20} className="absolute right-6 top-4"/>
             </div>
-            <div>
+            <div className="flex items-center justify-center xl:justify-start">
             <Button className='flex items-center max-w-[166px] gap-x-1'>Let's Talk <ArrowRightIcon/></Button>
             
             </div>
