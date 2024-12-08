@@ -23,6 +23,14 @@ export default function Projects(){
             link: 'https://fischerplanejados.art/',
             github: '/'
         },
+        {
+            image: '/work/papagaio-site.png',
+            category: 'next js',
+            name: 'Restaurante Papagaio ',
+            description: 'Restaurante e Churrasqueira típica de portugal',
+            link: 'https://restaurantepapagaio.pt/',
+            github: '/'
+        },
     ]
     const uniqueCategories = ['all projects',
     ...new Set(projectData.map((item)=>item.category))];
