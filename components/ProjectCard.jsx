@@ -5,7 +5,6 @@ import {Badge} from "./ui/badge";
 import {Github, Link2Icon, ArrowRightIcon} from 'lucide-react';
 
 export default function ProjectCard({project}){
-    
     return(
        <Card>
         <CardHeader className='p-0'>
@@ -16,20 +15,19 @@ export default function ProjectCard({project}){
                 height={250}
                 alt=""
                 priority
-                src={project.image}/>             
+                src={project.image}/>
             </div>
                     <Link
                     href={project.link}
                     className=" rounded-full flex justify-center items-center scale-100 opacity-100 group-hover:scale-100 group-hover:opacity-100 transition-all duration-500"
-                    > 
+                    >
                     <div className="flex p-2">
                     <ArrowRightIcon size={40} className="bg-primary text-3xl text-white rounded-[10px] p-2"/>
                     <Github size={40} className="bg-slate-800 text-3xl text-white rounded-[10px] p-2 ml-2"/>
                     </div>
                     </Link>
-                    
         </CardHeader>
-        <div className="h-full px-8 py-6">        
+        <div className="h-full px-8 py-6">
             <Badge className='uppercase text-sm font-medium mb-2 absolute top-4 left-5'>{project.category}</Badge>    
             <h4 className="h4 mb-1">{project.name}</h4>
             <p className="text-muted-foreground text-lg">{project.description}</p>

@@ -11,7 +11,7 @@ export default function Projects(){
             image: '/work/2.png',
             category: 'next js',
             name: 'Inversol - Energia Solar',
-            description: 'Empresa de energia solar',
+            description: 'Energia Solar',
             link: 'https://www.inversolenergiasolar.com.br/',
             github: '/'
         },
@@ -27,8 +27,16 @@ export default function Projects(){
             image: '/work/papagaio-site.png',
             category: 'next js',
             name: 'Restaurante Papagaio ',
-            description: 'Restaurante e Churrasqueira típica de portugal',
+            description: 'Restaurante e Churrasqueira típica de Portugal',
             link: 'https://restaurantepapagaio.pt/',
+            github: '/'
+        },
+        {
+            image: '/work/adega_bodega.png',
+            category: 'HTML',
+            name: 'Adega Bodega',
+            description: 'A melhor experiência',
+            link: 'https://adegabodega.pt/',
             github: '/'
         },
     ]
@@ -37,7 +45,6 @@ export default function Projects(){
     const [categories, setCategories] = useState(uniqueCategories);
     const [category, setCategory] = useState('all projects');
     const filteredProjects = projectData.filter(project => {
-        //if category is all project, return all, else filter 
         return category === 'all projects'
         ? project
         : project.category === category;

@@ -21,7 +21,7 @@ export default function About(){
         },
         {
             icon: <MailIcon size={20} />, 
-            text: 'alexandre@lekko.com.br'
+            text: 'alexandre.brazil.official@outlook.com'
         },
         {
             icon: <Calendar size={20} />, 
@@ -37,19 +37,16 @@ export default function About(){
             title: 'skills',
             data:[
                 {
-                    pathImg:'HTML, CSS'
-                },
-                {
                     pathImg:'Front-end Development'
-                },
-                {
-                    pathImg:'JavaScript'
                 },
                 {
                     pathImg:'Back-end Development'
                 },
                 {
-                    pathImg:'Designer Motion and VFX'
+                    pathImg:'JavaScript'
+                },
+                {
+                    pathImg:'C language'
                 },
             ]
         },
@@ -85,7 +82,11 @@ export default function About(){
                     qualification: 'Postgraduate',
                     years: '2022 - 2023'
                 },
-                
+                {
+                    universy: 'Software Engineer',
+                    qualification: '42 Porto - Piscine',
+                    years: '2025 - at the moment'
+                },
             ]
         },
         {
@@ -97,11 +98,15 @@ export default function About(){
                     years: '2023 - 2024'
                 },
                 {
+                    company: 'Word Revolution',
+                    role: 'Web developer full stack',
+                    years: '2024 - 2025'
+                },
+                {
                     company: 'Excellence Tecnologia',
                     role: 'IT technical support officer',
                     years: '2021 - 2022'
                 },
-                
             ]
         },
     ];
